@@ -273,6 +273,15 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.benefits-section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.peculiariti-titles {
+  margin-top: 94px;
+}
+
 .peculiariti-title {
   font-weight: 700;
   font-size: 14px;
@@ -308,7 +317,7 @@ img {
   height: 120px;
 }
 
-.work {
+.about__us {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -316,9 +325,10 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
+  margin-top: 94px;
 }
 
-.page {
+.list__page {
   position: relative;
 }
 
@@ -342,12 +352,7 @@ img {
   padding-bottom: 27px;
 }
 
-.benefits-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.cards {
+.team__cards {
   background-color: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -358,7 +363,12 @@ img {
   background: #f5f4fa;
 }
 
-.our-team {
+.team__section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -368,25 +378,23 @@ img {
   margin-bottom: 50px;
 }
 
-.human {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-}
 
-.people {
   margin-bottom: 10px;
 }
 
-.hope {
+.team__processing {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.specialization {
+.team__job {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -396,16 +404,16 @@ img {
   margin-bottom: 16px;
 }
 
-.team-soclinks {
+.team__soclinks {
   display: flex;
   list-style: none;
 }
 
-.team-logo:not(:last-child) {
+.team__logo:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-link {
+.social {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -418,13 +426,13 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover .icon-social,
-.social-link:focus .icon-social {
+.social:hover .social__icon,
+.social:focus .social__icon {
   fill: white;
 }
 
-.social-link:hover,
-.social-link:focus {
+.social:hover,
+.social:focus {
   background-color: #2196f3;
 }
 
@@ -433,7 +441,7 @@ img {
   padding-top: 94px;
 }
 
-.clients-title {
+.client {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -444,7 +452,7 @@ img {
   margin-bottom: 50px;
 }
 
-.clients-list {
+.client__list {
   display: flex;
   list-style: none;
   gap: 30px;
@@ -452,7 +460,7 @@ img {
   padding: 0;
 }
 
-.clients-link {
+.client__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -466,12 +474,12 @@ img {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.client__link:hover,
+.client__link:focus {
   fill: #2196f3;
 }
 
-.clients-link:hover {
+.client__link:hover {
   border-color: #2196f3;
 }
 
